@@ -1,0 +1,19 @@
+[project]
+name = "autonomous-advent-of-code"
+version = "0.1.0"
+description = "Autonomous Advent of Code solution generator"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "httpx>=0.28.1",
+    "markdownify>=0.14.1",
+    "typer>=0.15.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.14.1",
+    "pytest>=8.3.4",
+    "ruff>=0.8.4",
+]
